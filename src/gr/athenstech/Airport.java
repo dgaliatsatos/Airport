@@ -14,7 +14,7 @@ public class Airport {
 	f1.setDepTime(t1);
 	f1.setDepAirport("California");
 	Time t2 = new Time();
-	t2.setTime(12,6,01);
+	t2.setTime(17,6,01);
 	f1.setArTime(t2);
 	System.out.println(f1);
     }

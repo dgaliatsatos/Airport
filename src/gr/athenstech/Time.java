@@ -12,7 +12,7 @@ public class Time {
         }
     }
      public void displayTime(){
-         String bm = "am";
+         String bm = checkampm();
          System.out.println(hour+":"+Min+":"+Sec+"bm");
 
          //if (hour <12){
